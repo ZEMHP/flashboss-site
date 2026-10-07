@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FlashBoss & ZemBooth</title>
+<meta name="description" content="FlashBoss: phần mềm quản lý kinh doanh photobooth. ZemBooth: phần mềm chụp ảnh photobooth.">
+<style>
+  :root { --bg: #f6f7f9; --card: #fff; --text: #111827; --muted: #6b7280; --accent: #2563eb; --line: #e5e7eb; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #0f172a; --card: #111c33; --text: #e5e7eb; --muted: #9ca3af; --accent: #60a5fa; --line: #1f2a44; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 860px; margin: 0 auto; padding: 40px 16px 60px; }
+  h1 { font-size: 2rem; margin: 0 0 4px; }
+  .lead { color: var(--muted); margin: 0 0 28px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 20px; }
+  .card h2 { margin: 0 0 6px; font-size: 1.25rem; }
+  .card p { margin: 0 0 8px; }
+  ul { margin: 8px 0 0; padding-left: 20px; }
+  .en { color: var(--muted); font-size: .92rem; }
+  footer { margin-top: 32px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: .92rem; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>FlashBoss &amp; ZemBooth</h1>
+  <p class="lead">Phần mềm cho dịch vụ chụp ảnh photobooth sự kiện · Software for event photobooth businesses</p>
+
+  <div class="grid">
+    <section class="card">
+      <h2>ZemBooth</h2>
+      <p>Phần mềm chạy trên máy booth: chụp ảnh, ghép khung, in ảnh, khách quét QR tải ảnh, thống kê lượt chụp và bản in.</p>
+      <p class="en">Photobooth software for the booth PC: capture, frames and layouts, printing, QR photo download, session statistics.</p>
+    </section>
+    <section class="card">
+      <h2>FlashBoss</h2>
+      <p>Phần mềm quản lý kinh doanh trên máy tính của chủ booth: lịch sự kiện, khách hàng, báo giá – hợp đồng, thu tiền, chi phí, giấy in, tình trạng máy.</p>
+      <p class="en">Business management for the booth owner's PC: event calendar, customers, quotes and contracts, payments, costs, paper and booth health.</p>
+    </section>
+  </div>
+
+  <section class="card" style="margin-top:16px">
+    <h2>Google Drive</h2>
+    <p>Tuỳ chọn: cuối buổi, ZemBooth có thể gửi báo cáo (số lượt chụp, số bản in, giấy còn lại, lỗi máy) về FlashBoss qua Google Drive của chính chủ booth. Hai ứng dụng chỉ dùng quyền <code>drive.file</code> — chỉ thấy các file do chính ứng dụng tạo, không đọc các tài liệu khác trong Drive.</p>
+    <p class="en">Optional: at the end of a session ZemBooth can send a report (sessions, prints, paper left, booth errors) to FlashBoss through the booth owner's own Google Drive. Both apps use only the <code>drive.file</code> scope — they see only the files they created, never other documents in the Drive.</p>
+  </section>
+
+  <footer>
+    <a href="privacy.html">Chính sách quyền riêng tư · Privacy Policy</a>
+    · Liên hệ / Contact: <a href="mailto:tanpham90@gmail.com">tanpham90@gmail.com</a>
+  </footer>
+</main>
+</body>
+</html>
